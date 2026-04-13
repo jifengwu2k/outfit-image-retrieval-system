@@ -87,6 +87,18 @@ Retrieval is designed around agentic workflows rather than a dedicated retrieval
 
 This makes the retrieval layer flexible: an agent can translate free-form user intent into the concrete steps needed to locate and return the best matching outfit images.
 
+## Philosophy
+
+This project deliberately embraces the uncertainty and fluidity of the agentic AI era.
+
+Rather than hard-coding a rigid retrieval pipeline, it keeps the core representation simple, legible, and easy for both humans and agents to work with:
+
+- outfit images are stored canonically by perceptual hash;
+- descriptions are stored in a plain JSON mapping;
+- retrieval is performed semantically from natural-language queries rather than through a brittle fixed taxonomy.
+
+The goal is not to prematurely optimize for a single retrieval architecture, but to create a durable substrate that capable agents can interpret, inspect, and use flexibly. In that sense, the repository is intentionally minimal: it favors transparent artifacts and stable conventions over heavy infrastructure.
+
 ## Contributing
 
 Contributions are welcome! Please submit pull requests or open issues on the GitHub repository.
