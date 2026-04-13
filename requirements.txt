@@ -1,0 +1,6 @@
+accelerate
+imagehash
+pillow
+torch
+torchvision
+transformers
